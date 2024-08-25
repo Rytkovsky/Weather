@@ -1,0 +1,204 @@
+body {
+  height: 100vh;
+  background: linear-gradient(151deg, #8e2de2 0%, #4a00e0 100%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 330px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  color: inherit;
+  appearance: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: inherit;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Mulish-italic;
+  src: url("../fonts/Mulish-Italic.ttf");
+  font-weight: 400;
+}
+header {
+  padding-top: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+.weather-info {
+  padding-top: 100px;
+  text-align: center;
+}
+.weather-title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+.weather-about {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.change__city-button {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Mulish-italic;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  margin-top: 36px;
+}
+
+.form {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.type-city {
+  padding-bottom: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.type-city::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.type-button {
+  margin-top: 35px;
+  border-radius: 8px;
+  background: #fff;
+  width: 140px;
+  height: 48px;
+  color: #4c01e0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.error-wrapper {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.error__first-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.error__second-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.error-button {
+  margin-top: 35px;
+  border-radius: 8px;
+  background: #fff;
+  width: 140px;
+  height: 48px;
+  color: #4c01e0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+footer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.footer-text {
+  padding-bottom: 30px;
+}
+
+#openweathermap-widget-24 {
+  padding: 50px 50px;
+}
+
+.widget-left-menu__logo_bnw_small {
+  display: none;
+}/*# sourceMappingURL=global.css.map */

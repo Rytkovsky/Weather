@@ -1,0 +1,122 @@
+header {
+  padding-top: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.weather {
+  &-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  &-info {
+    padding-top: 100px;
+    text-align: center;
+  }
+  &-title {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+  }
+  &-about {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}
+.change__city-button {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Mulish-italic;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  margin-top: 36px;
+}
+.form {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.type-city {
+  padding-bottom: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+.type-city::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.type-button {
+  margin-top: 35px;
+  border-radius: 8px;
+  background: #fff;
+  width: 140px;
+  height: 48px;
+  color: #4c01e0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.error-wrapper {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.error__first-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.error__second-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+.error-button {
+  margin-top: 35px;
+  border-radius: 8px;
+  background: #fff;
+  width: 140px;
+  height: 48px;
+  color: #4c01e0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+footer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.footer-text {
+  padding-bottom: 30px;
+}
+
+#openweathermap-widget-24 {
+  padding: 50px 50px;
+}
+.widget-left-menu__logo_bnw_small {
+  display: none;
+}
